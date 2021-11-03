@@ -1,16 +1,20 @@
 PODS:
+  - PKHUD (5.3.0)
   - SwiftLint (0.45.0)
 
 DEPENDENCIES:
+  - PKHUD
   - SwiftLint
 
 SPEC REPOS:
   trunk:
+    - PKHUD
     - SwiftLint
 
 SPEC CHECKSUMS:
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
   SwiftLint: e5c7f1fba68eccfc51509d5b2ce1699f5502e0c7
 
-PODFILE CHECKSUM: 842918cbb0babfb10e2b76cec27f73df3012eedb
+PODFILE CHECKSUM: 1bc0c2cf83a9a4b44fe2547ba28d626ec3658d66
 
 COCOAPODS: 1.10.1

@@ -7,14 +7,14 @@ target 'CreatorMediaClubs' do
 
   # Pods for CreatorMediaClubs
   pod 'SwiftLint'
+  pod 'PKHUD'
 
   target 'CreatorMediaClubsTests' do
     inherit! :search_paths
-    # Pods for testing
   end
 
   target 'CreatorMediaClubsUITests' do
-    # Pods for testing
+    inherit! :search_paths
   end
 
 end

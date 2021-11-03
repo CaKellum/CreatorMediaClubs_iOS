@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D9F8FA501F7158E1FB2BBE4 /* Pods_CreatorMediaClubsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2F26EA753B7FE28CD47938 /* Pods_CreatorMediaClubsUITests.framework */; };
 		7BD8CE7F1D5E5DA83F451430 /* Pods_CreatorMediaClubsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D100BEB303287FAB7A7F745 /* Pods_CreatorMediaClubsTests.framework */; };
 		83CB56882731DD7200E3D3CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CB56872731DD7200E3D3CD /* AppDelegate.swift */; };
 		83CB568A2731DD7200E3D3CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CB56892731DD7200E3D3CD /* SceneDelegate.swift */; };
@@ -17,7 +18,6 @@
 		83CB569F2731DD7300E3D3CD /* CreatorMediaClubsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CB569E2731DD7300E3D3CD /* CreatorMediaClubsTests.swift */; };
 		83CB56A92731DD7300E3D3CD /* CreatorMediaClubsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CB56A82731DD7300E3D3CD /* CreatorMediaClubsUITests.swift */; };
 		83CB56AB2731DD7300E3D3CD /* CreatorMediaClubsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CB56AA2731DD7300E3D3CD /* CreatorMediaClubsUITestsLaunchTests.swift */; };
-		87189C36C98756E46E85D37E /* Pods_CreatorMediaClubs_CreatorMediaClubsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D987554752BC53BC8648F2E0 /* Pods_CreatorMediaClubs_CreatorMediaClubsUITests.framework */; };
 		E7DC236E9FE40F6AFB89B364 /* Pods_CreatorMediaClubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A359685FCB162243BFBE5351 /* Pods_CreatorMediaClubs.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		748A8CE8085CA0F187791492 /* Pods-CreatorMediaClubsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreatorMediaClubsUITests.release.xcconfig"; path = "Target Support Files/Pods-CreatorMediaClubsUITests/Pods-CreatorMediaClubsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7D100BEB303287FAB7A7F745 /* Pods_CreatorMediaClubsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreatorMediaClubsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83CB56842731DD7200E3D3CD /* CreatorMediaClubs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreatorMediaClubs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83CB56872731DD7200E3D3CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,12 +55,13 @@
 		83CB56A82731DD7300E3D3CD /* CreatorMediaClubsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorMediaClubsUITests.swift; sourceTree = "<group>"; };
 		83CB56AA2731DD7300E3D3CD /* CreatorMediaClubsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorMediaClubsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8A2FF051BF9D2A73F2F0B0CD /* Pods-CreatorMediaClubsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreatorMediaClubsTests.debug.xcconfig"; path = "Target Support Files/Pods-CreatorMediaClubsTests/Pods-CreatorMediaClubsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B2F26EA753B7FE28CD47938 /* Pods_CreatorMediaClubsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreatorMediaClubsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A359685FCB162243BFBE5351 /* Pods_CreatorMediaClubs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreatorMediaClubs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3BC1982E4760D4F2709807 /* Pods-CreatorMediaClubsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreatorMediaClubsUITests.debug.xcconfig"; path = "Target Support Files/Pods-CreatorMediaClubsUITests/Pods-CreatorMediaClubsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C35315D0AEBEB7B7DA71CF86 /* Pods-CreatorMediaClubs-CreatorMediaClubsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreatorMediaClubs-CreatorMediaClubsUITests.debug.xcconfig"; path = "Target Support Files/Pods-CreatorMediaClubs-CreatorMediaClubsUITests/Pods-CreatorMediaClubs-CreatorMediaClubsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C44F3CEDFFD4B6AF50D3FC5E /* Pods-CreatorMediaClubs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreatorMediaClubs.release.xcconfig"; path = "Target Support Files/Pods-CreatorMediaClubs/Pods-CreatorMediaClubs.release.xcconfig"; sourceTree = "<group>"; };
 		CC10B0CD028AEF8DB7B82A6A /* Pods-CreatorMediaClubsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreatorMediaClubsTests.release.xcconfig"; path = "Target Support Files/Pods-CreatorMediaClubsTests/Pods-CreatorMediaClubsTests.release.xcconfig"; sourceTree = "<group>"; };
 		D88932172988E360EC745FB7 /* Pods-CreatorMediaClubs-CreatorMediaClubsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreatorMediaClubs-CreatorMediaClubsUITests.release.xcconfig"; path = "Target Support Files/Pods-CreatorMediaClubs-CreatorMediaClubsUITests/Pods-CreatorMediaClubs-CreatorMediaClubsUITests.release.xcconfig"; sourceTree = "<group>"; };
-		D987554752BC53BC8648F2E0 /* Pods_CreatorMediaClubs_CreatorMediaClubsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreatorMediaClubs_CreatorMediaClubsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F53DDF1CDAAB1E4CD3A616E9 /* Pods-CreatorMediaClubs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreatorMediaClubs.debug.xcconfig"; path = "Target Support Files/Pods-CreatorMediaClubs/Pods-CreatorMediaClubs.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87189C36C98756E46E85D37E /* Pods_CreatorMediaClubs_CreatorMediaClubsUITests.framework in Frameworks */,
+				5D9F8FA501F7158E1FB2BBE4 /* Pods_CreatorMediaClubsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,8 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				A359685FCB162243BFBE5351 /* Pods_CreatorMediaClubs.framework */,
-				D987554752BC53BC8648F2E0 /* Pods_CreatorMediaClubs_CreatorMediaClubsUITests.framework */,
 				7D100BEB303287FAB7A7F745 /* Pods_CreatorMediaClubsTests.framework */,
+				8B2F26EA753B7FE28CD47938 /* Pods_CreatorMediaClubsUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -163,6 +165,8 @@
 				D88932172988E360EC745FB7 /* Pods-CreatorMediaClubs-CreatorMediaClubsUITests.release.xcconfig */,
 				8A2FF051BF9D2A73F2F0B0CD /* Pods-CreatorMediaClubsTests.debug.xcconfig */,
 				CC10B0CD028AEF8DB7B82A6A /* Pods-CreatorMediaClubsTests.release.xcconfig */,
+				BF3BC1982E4760D4F2709807 /* Pods-CreatorMediaClubsUITests.debug.xcconfig */,
+				748A8CE8085CA0F187791492 /* Pods-CreatorMediaClubsUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -179,6 +183,7 @@
 				83CB56812731DD7200E3D3CD /* Frameworks */,
 				83CB56822731DD7200E3D3CD /* Resources */,
 				83CB56B72731DFD300E3D3CD /* SwiftLint */,
+				9685A48FE075FC4CD8B1696C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -335,7 +340,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CreatorMediaClubs-CreatorMediaClubsUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CreatorMediaClubsUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -359,6 +364,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which \"${PODS_ROOT}/SwiftLint/swiftlint\" >/dev/null; then\n  \"${PODS_ROOT}/SwiftLint/swiftlint\"\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		9685A48FE075FC4CD8B1696C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CreatorMediaClubs/Pods-CreatorMediaClubs-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CreatorMediaClubs/Pods-CreatorMediaClubs-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CreatorMediaClubs/Pods-CreatorMediaClubs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		D1AFA19E2E28FB88FB2FDA5F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -675,7 +697,7 @@
 		};
 		83CB56B52731DD7300E3D3CD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C35315D0AEBEB7B7DA71CF86 /* Pods-CreatorMediaClubs-CreatorMediaClubsUITests.debug.xcconfig */;
+			baseConfigurationReference = BF3BC1982E4760D4F2709807 /* Pods-CreatorMediaClubsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -699,7 +721,7 @@
 		};
 		83CB56B62731DD7300E3D3CD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D88932172988E360EC745FB7 /* Pods-CreatorMediaClubs-CreatorMediaClubsUITests.release.xcconfig */;
+			baseConfigurationReference = 748A8CE8085CA0F187791492 /* Pods-CreatorMediaClubsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

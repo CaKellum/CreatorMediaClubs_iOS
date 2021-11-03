@@ -6,8 +6,8 @@ target 'CreatorMediaClubs' do
   use_frameworks!
 
   # Pods for CreatorMediaClubs
-  pod 'SwiftLint'
-  pod 'PKHUD'
+  pod 'SwiftLint', :inhibit_warnings => true
+  pod 'PKHUD', :inhibit_warnings => true
 
   target 'CreatorMediaClubsTests' do
     inherit! :search_paths

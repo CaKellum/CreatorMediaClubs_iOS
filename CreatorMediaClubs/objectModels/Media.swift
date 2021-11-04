@@ -8,10 +8,10 @@ struct Media: Codable, Identifiable, Equatable {
         MediaType.getType(from: mediaTypeString ?? "")
     }
 
-    var albulmArtists: [String]? {
+    var albulmArtists: [String] {
         var artists = [String]()
         trackList?.forEach({ artists.append($0.artist ?? "") })
-        return mediaType == .album ? artists.unique() : nil
+        return artists.unique()
     }
 
     static func == (_ lhMedia: Media, _ rhMedia: Media) -> Bool {

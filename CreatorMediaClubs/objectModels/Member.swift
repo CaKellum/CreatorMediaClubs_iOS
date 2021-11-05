@@ -4,5 +4,5 @@ struct Member: Identifiable, Codable {
     let id: Int
     let firstName: String?
     let lastName: String?
-    let clubs: [Club]
+    let clubs: [String: String]?
 }

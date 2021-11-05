@@ -1,7 +1,8 @@
 import Foundation
 
-struct Club: Codable {
-    let mediaOfMonth: Media
-    let previousMediaOfTheMonth: [Media]
-    let upcomingMediaOfTheMonth: [Media]
+struct Club<T: Media>: Codable, Identifiable {
+    let id: Int
+    let mediaOfMonth: T?
+    let previousMediaOfTheMonth: [T]?
+    let upcomingMediaOfTheMonth: [T]?
 }

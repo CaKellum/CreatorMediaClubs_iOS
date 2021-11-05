@@ -1,49 +1,37 @@
-struct Media: Codable, Identifiable, Equatable {
-    let id: Int
-    let title: String?
-    let mediaTypeString: String?
-    let trackList: [Song]?
+import Foundation
 
-    var mediaType: MediaType {
-        MediaType.getType(from: mediaTypeString ?? "")
-    }
-
-    var albulmArtists: [String] {
-        var artists = [String]()
-        trackList?.forEach({ artists.append($0.artist ?? "") })
-        return artists.unique()
-    }
-
-    static func == (_ lhMedia: Media, _ rhMedia: Media) -> Bool {
-        lhMedia.id == rhMedia.id && lhMedia.title == rhMedia.title
-    }
-
-    func isMediaOfTheMonth(for club: Club) -> Bool {
-        self == club.mediaOfMonth
-    }
-
-    enum MediaType: String {
-        case movie, album, book, comic, unknown
-
-        static func getType(from string: String) -> Self {
-            switch string.lowercased() {
-            case "movie":
-                return .movie
-            case "album":
-                return .album
-            case "book":
-                return .book
-            case "comic":
-                return .comic
-            default:
-                return .unknown
-            }
-        }
-    }
+protocol Media: Codable, Identifiable, Equatable, CustomStringConvertible {
+    associatedtype MediaType: Media
+    static func == (lhMedia: Self, rhMedia: Self) -> Bool
+    func isMediaOfTheMonth(for club: Club<MediaType>) -> Bool
+    func generateDescription() -> String
 }
 
-struct Song: Codable {
+struct Song: Media {
+    typealias MediaType = Song
+
+    var id: String?
     let title: String?
     let artist: String?
     let length: String?
+
+    var description: String {
+        self.generateDescription()
+    }
+
+    static func == (lhMedia: Song, rhMedia: Song) -> Bool {
+        lhMedia.id == rhMedia.id && lhMedia.title == rhMedia.title && lhMedia.artist == rhMedia.artist
+    }
+
+    func isMediaOfTheMonth(for club: Club<Song>) -> Bool {
+        club.mediaOfMonth == self
+    }
+
+    func generateDescription() -> String {
+        return "Song \(id ?? "nil") {title: \(title ?? "unknown"), artist: \(artist ?? "unknown")}"
+    }
+}
+
+enum MediaType: String {
+    case movie, book, album, song, art
 }
